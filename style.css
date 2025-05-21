@@ -12,6 +12,7 @@ body {
       display: flex;
       overflow: hidden;
 }
+@media only screen and (max-width:500px){
 .sidebar {
       width: 260px;
       background: #fff;
@@ -22,7 +23,7 @@ body {
       flex-direction: column;
       justify-content: space-between;
     }
-
+}
     .sidebar nav a {
       display: flex;
       align-items: center;
@@ -136,7 +137,4 @@ body {
   background-color: white;
   border-radius: 15px;
   ;
-}
-#b6{
-      width:10px;
 }
